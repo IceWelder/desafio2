@@ -9,8 +9,11 @@ const MyCalendar: React.FC = () => {
     <>
     <Header/>
     
-    <Calendar/>
     
+    <main className='h-screen bg-slate-600'>
+        <Calendar/>
+    </main>
+    <Footer/>
     
     </>
   );

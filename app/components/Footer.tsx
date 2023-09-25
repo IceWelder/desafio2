@@ -2,7 +2,7 @@
 
 const Footer: React.FC = () => {
     return (
-      <footer className="bg-red-600 text-white p-6 rounded-tr-lg  ">
+      <footer className="h-[300px] bg-red-600 text-white p-6 rounded-tr-lg  ">
         <div className="container mx-auto flex justify-between items-center ">
           <div className="text-left">
             <h2 className="text-2xl font-semibold">Contato</h2>
