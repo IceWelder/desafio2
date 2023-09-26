@@ -8,7 +8,7 @@ function HomePage() {
     
     audioElement.play().catch(error => {
       
-      console.error('Erro ao reproduzir música:', error);
+      console.error('Erro:', error);
     });
     
     
