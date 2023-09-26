@@ -1,12 +1,12 @@
 import React from 'react';
 import MyCalendar from '../components/calendario';
 
-const Home: React.FC = () => {
+export default function Home() {
   return (
-    <div className="bg-slate-600">
+    <section>
+       <div className="bg-slate-600">
       <MyCalendar />
     </div>
-  );
-};
-
-export default Home;
+    </section>
+  )
+}

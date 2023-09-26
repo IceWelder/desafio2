@@ -1,13 +1,14 @@
 import Image from 'next/image'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Main from './components/Main'
+
+
+
+import Caixa from './components/caixa'
+import Counter from './components/counter'
 export default function Home() {
   return (
     <section>
-      <Header/>
-      <Main/>
-     
+      <Caixa/>
+      <Counter/>
     </section>
   )
 }

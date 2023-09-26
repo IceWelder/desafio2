@@ -1,8 +1,9 @@
 
 
-const Footer: React.FC = () => {
-    return (
-      <footer className="h-[300px] bg-red-600 text-white p-6 rounded-tr-lg  ">
+export default function footer() {
+  return (
+    <section>
+     <footer className=" bg-red-600 text-white p-6 rounded-tr-lg  ">
         <div className="container mx-auto flex justify-between items-center ">
           <div className="text-left">
             <h2 className="text-2xl font-semibold">Contato</h2>
@@ -32,8 +33,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
       </footer>
-    );
-  };
-  
-  export default Footer;
+    </section>
+  )
+}
   
